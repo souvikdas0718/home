@@ -59,6 +59,8 @@ const Home = React.forwardRef((props, ref) => {
         <Leadership
           heading={leadership.heading}
           message={leadership.message}
+          message2={leadership.message2}
+          message3={leadership.message3}
           img={leadership.images}
           imageSize={leadership.imageSize}
         />
@@ -70,7 +72,7 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
+
     </>
   );
 });
