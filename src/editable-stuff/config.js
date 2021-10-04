@@ -26,20 +26,6 @@ const mainBody = {
   ],
 };
 
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/Souvik_Das_Resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-
 const about = {
   show: true,
   heading: "About Me",
@@ -74,20 +60,20 @@ const leadership = {
       "Communicated with the Lead TA's and Markers for preparing class materials.",
   message2:"Infosys: As a Senior Systems Engineer, I pioneered the skill of assisting peers and help new joinees in on-boarding training process.\n" +
       "Supervised a team of five junior developers and reported daily progress to Technology leads.",
-  message3:"Hackathons:",
+  message3:"Hackathon: Lead a team of three members to pitch in our idea of contactless on-boarding process in Aviation Technology Hackathon conducted by Shift Key labs and HaliFax Stanfield Airport.",
   images: [
     {
       img: require("../editable-stuff/serverless.png"),
-      label: "Teaching Assistant: CSCI 5410 Serverless Computing.\n",
-      paragraph: "Handled individual tutoring for 100 master students to help master/reinforce serverless AWS and GCP lab concepts.\n" +
-          "Monitored BrightSpace/Teams channel for questions from the class\n" +
-          "Assisted students in doubt clearing sessions\n" +
-          "Communicated with the Lead TA's and Markers for preparing class materials."
     },
     {
       img: require("../editable-stuff/SouvikDas.jpeg"),
       label: "Senior Systems Engineer",
       paragraph: "Assisted newly joined team members as a buddy and provided smooth on-boarding process."
+    },
+    {
+      img: require("../editable-stuff/Hackathon.png"),
+      label: "Safe Flight Hackathon",
+      paragraph: "Lead a team of three members to pitch in our idea of contactless on-boarding process."
     },
   ],
   imageSize: {

@@ -13,36 +13,15 @@ const Leadership = ({ heading, message, message2, message3, img, imageSize }) =>
       <div className="container container-fluid">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <div className="row">
-        {/*<div className="row">*/}
-          <Jumbotron fluid id="leadership" className="bg-light m-0">
-            <Container className="">
           <div className="col-md-5">
             <p className="lead" style={{color:"olive"}}>{message}</p>
           </div>
-            </Container>
-          </Jumbotron>
-
-          {/*<div className="card-body"><h5 className="card-title">BinarySearchTree </h5><p className="card-text"></p><a*/}
-          {/*    href="https://github.com/souvikdas0718/BinarySearchTree/archive/master.zip"*/}
-          {/*    className="btn btn-outline-secondary mr-3"><i className="fab fa-github"></i> Clone Project</a><a*/}
-          {/*    href="https://github.com/souvikdas0718/BinarySearchTree" target=" _blank"*/}
-          {/*    className="btn btn-outline-secondary"><i className="fab fa-github"></i> Repo</a>*/}
-          {/*  <hr>*/}
-          {/*    <div className="pb-3">Languages: <a className="badge badge-light card-link"*/}
-          {/*                                        href="https://github.com/souvikdas0718/BinarySearchTree/search?l=Java"*/}
-          {/*                                        target=" _blank">Java: 100 %</a></div>*/}
-          {/*    <p className="card-text"><a href="https://github.com/souvikdas0718/BinarySearchTree/stargazers"*/}
-          {/*                                target=" _blank" className="text-dark text-decoration-none"><span*/}
-          {/*        className="text-dark card-link mr-4"><i className="fab fa-github"></i> Stars <span*/}
-          {/*        className="badge badge-dark">0</span></span></a><small className="text-muted">Updated on January 9,*/}
-          {/*      2021</small></p>*/}
-          {/*</div>*/}
 
           <div className="col-md-5">
-            <p className="lead">{message2}</p>
+            <p className="lead" style={{color:"grey"}}>{message2}</p>
           </div>
           <div className="col-md-5">
-            <p className="lead">{message3}</p>
+            <p className="lead" style={{color:"purple"}}>{message3}</p>
           </div>
           <div className="col-md-7">
             <Carousel>
