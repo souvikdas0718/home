@@ -33,7 +33,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Souvik Das. I’m a graduate student of 2021 from Dalhousie University, Halifax with a degree in Master of Applied Computer Science.",
-  resume: "https://drive.google.com/file/d/16HUl0ZkzWz9kllROdQ5BddKjC4OsNnon/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1W3btr_uWZIXBC6CEs-YjuxOh1bbEGQqP/view",
 };
 
 // PROJECTS SECTION
