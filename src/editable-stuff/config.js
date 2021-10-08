@@ -144,6 +144,23 @@ const experiences = {
       date: 'Jan 2016 – May 2016',
     },
   ]
+};
+
+const certifications = {
+  show: true,
+  heading: "Certifications",
+  data: [
+    {
+      certificate: 'The ultimate hands-on hadoop-tame your big data by Frank Kane',// Here Add Company Name
+      certificatelogo: require('../assets/img/BigData.jpeg'),
+      date: 'Sept. 22, 2021',
+    },
+    {
+      certificate: 'AWS Certified Solutions Architect - Associate certificate',
+      certificatelogo: require('../assets/img/AWS.png'),
+      date: 'Oct. 06, 2021 – Oct. 06, 2024',
+    },
+  ]
 }
 
 // Blog SECTION
@@ -151,4 +168,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, certifications };

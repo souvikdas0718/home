@@ -1,24 +1,25 @@
 import React from 'react';
-import ExperienceCard from "./ExperienceCard";
+import CertificationCard from "./CertificationCard";
 import {
     Container,
     Row,
     Jumbotron
 } from "react-bootstrap";
 
-const Experience = ({experiences}) => {
-    console.log("Experience data: "+experiences.data)
+const Certification = ({certifications}) => {
+    console.log("Certification data: "+certifications.data)
     return (
         <section className="section">
             <Container>
                 <Jumbotron fluid className="bg-white">
                     <h2 className="display-4 mb-5 text-center">
-                        {experiences.heading}
+                        {certifications.heading}
                     </h2>
                     <Row>
                         {
-                            experiences.data.map(data => {
-                                return <ExperienceCard key={data.company} data={data} />
+                            certifications.data.map(data => {
+                                // console.log(data)
+                                return <CertificationCard key={data.certifications} data={data} />
                             })
                         }
                     </Row>
@@ -28,4 +29,4 @@ const Experience = ({experiences}) => {
     );
 }
 
-export default Experience;
+export default Certification;
