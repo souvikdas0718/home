@@ -8,8 +8,8 @@ const CertificationCard = ({data}) => {
             <div className="pb-5 text-center">
                 <img className="d-block w-100"
                      src={data.certificatelogo}
-                     width={615}
-                     height={450}
+                     width="615"
+                     height="450"
                      alt=""/>
 
                 <p className="lead">
