@@ -33,7 +33,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi there. I’m a graduate student of 2021 from Dalhousie University, Halifax with a degree in Master of Applied Computer Science. Currently, I am looking for a full-time software development roles.",
-  resume: "https://drive.google.com/file/d/1d8zRSJP1J1miCqcDBvFyHamR-P06Vtpr/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1R3ZWYXNPfu3qlUuNHn_JBZb2FvBUVwb9/view?usp=sharing",
 };
 
 // PROJECTS SECTION
