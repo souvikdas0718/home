@@ -151,14 +151,19 @@ const certifications = {
   heading: "Certifications",
   data: [
     {
+      certificate: 'AWS Certified Solutions Architect - Associate certificate',
+      certificatelogo: require('../assets/img/AWS.png'),
+      date: 'Oct. 06, 2021 – Oct. 06, 2024',
+    },
+    {
       certificate: 'The ultimate hands-on hadoop-tame your big data by Frank Kane',// Here Add Company Name
       certificatelogo: require('../assets/img/BigData.jpeg'),
       date: 'Sept. 22, 2021',
     },
     {
-      certificate: 'AWS Certified Solutions Architect - Associate certificate',
-      certificatelogo: require('../assets/img/AWS.png'),
-      date: 'Oct. 06, 2021 – Oct. 06, 2024',
+      certificate: 'The Complete Node.js Developer Course',
+      certificatelogo: require('../assets/img/Node.jpeg'),
+      date: 'Oct. 25, 2021',
     },
   ]
 }
